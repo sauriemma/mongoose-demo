@@ -1,5 +1,5 @@
 
-###Mongoose Demo
+#Mongoose Demo
 
 ###Instructions
 
@@ -60,20 +60,20 @@ db.serverStatus() - shows you stats for the entire server, very useful for monit
 db.stats() - shows you stats for the selected db
 db.collection.stats() - stats for the specified collection
 
-#Build a RESTful API using Node and MongoDB
+###Build a RESTful API using Node and MongoDB
 https://codeforgeek.com/2015/08/restful-api-node-mongodb/
 http://adrianmejia.com/blog/2014/10/01/creating-a-restful-api-tutorial-with-nodejs-and-mongodb/
 
-#Express
+###Express
 http://expressjs.com/en/api.html
 
-#body-parser
+###Express body-parser
 https://github.com/expressjs/body-parser#examples
 
-#Things I wish I knew about MongoDB a year ago
+###Things I wish I knew about MongoDB a year ago
 http://snmaynard.com/2012/10/17/things-i-wish-i-knew-about-mongodb-a-year-ago/
 
-#Mongoose
+###Mongoose
 http://mongoosejs.com/docs/guide.html
 // if you are working on a single database, simple connect functions will work.
 // if you must connect to multiple databases,
@@ -81,6 +81,6 @@ http://mongoosejs.com/docs/guide.html
 // http://www.nodejsnotes.com/2013/05/mongoose-and-multiple-database.html
 
 
-####The DB Team
+###The DB Team
 
     Stephen Auriemma
