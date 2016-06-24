@@ -53,7 +53,7 @@
 
 ###MongoDB
 https://docs.mongodb.com
-#Other mongo shell commands
+###Other mongo shell commands
 db.currentOp() - shows you all currently running operations
 db.killOp(opid) - lets you kill long running queries
 db.serverStatus() - shows you stats for the entire server, very useful for monitoring
