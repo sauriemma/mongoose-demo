@@ -54,14 +54,15 @@
 ###MongoDB
 https://docs.mongodb.com
 ###Other mongo shell commands
-db.currentOp() - shows you all currently running operations
-db.killOp(opid) - lets you kill long running queries
-db.serverStatus() - shows you stats for the entire server, very useful for monitoring
-db.stats() - shows you stats for the selected db
-db.collection.stats() - stats for the specified collection
+    db.currentOp() - shows you all currently running operations
+    db.killOp(opid) - lets you kill long running queries
+    db.serverStatus() - shows you stats for the entire server, very useful for monitoring
+    db.stats() - shows you stats for the selected db
+    db.collection.stats() - stats for the specified collection
 
 ###Build a RESTful API using Node and MongoDB
 https://codeforgeek.com/2015/08/restful-api-node-mongodb/
+
 http://adrianmejia.com/blog/2014/10/01/creating-a-restful-api-tutorial-with-nodejs-and-mongodb/
 
 ###Express
@@ -75,11 +76,11 @@ http://snmaynard.com/2012/10/17/things-i-wish-i-knew-about-mongodb-a-year-ago/
 
 ###Mongoose
 http://mongoosejs.com/docs/guide.html
-// if you are working on a single database, simple connect functions will work.
-// if you must connect to multiple databases,
-// you must connect to each database by using the createConnection method
-// http://www.nodejsnotes.com/2013/05/mongoose-and-multiple-database.html
+    
+- To connect to a single database a simple connect functions will work.
+- To connect to multiple databases use the createConnection method.
 
+http://www.nodejsnotes.com/2013/05/mongoose-and-multiple-database.html
 
 ###The DB Team
 
